@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco__header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 15px;
+    margin: 5px;
+
+}
+.bloco__main{
+    background-color: aquamarine;
+    width: 65%;
+    height: 200px;
+    margin: 5px;
+   
+}
+
+.bloco__aside{
+    background-color: aquamarine;
+    width: 31%;
+    height: 200px;
+    margin: 5px;
+   
+  
+}
