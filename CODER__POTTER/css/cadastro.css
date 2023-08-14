@@ -63,7 +63,7 @@ h1{
 }
 h1 span{
     margin: 1px;
-    font-size: 1.9em;
+    font-size: 2em;
     background-image: url(../imgs/imgs_cadastro/fundo\ letra.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
