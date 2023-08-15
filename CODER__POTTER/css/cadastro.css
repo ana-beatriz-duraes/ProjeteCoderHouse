@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgba(29, 29, 29, 0.815);
+    background-color: rgba(29, 29, 29, 0.934);
      align-content: center;
      display: flex;
      flex-direction: column;
@@ -29,7 +29,7 @@ header{
     width: 50%;
 }
 .container-pai{
-    margin-top:85px;
+    margin-top:45px;
     margin-bottom: 15px;
     display: flex;
     flex-direction:row; 
@@ -39,14 +39,6 @@ header{
     border-radius: 40px;
     width: 80%;
 }
-/* .foto{
-    display: flex;
-    flex-wrap: wrap;
-    background: url(../imgs/imgs_cadastro/fundo4.jpg) no-repeat;
-    height: 60vh;
-    width: 50%;  
-   
-} */
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -62,15 +54,34 @@ h1{
     align-items: center;    
 }
 h1 span{
-    margin: 1px;
-    font-size: 2em;
+    font-size: 28%;
     background-image: url(../imgs/imgs_cadastro/fundo\ letra.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
 }
+
+.surgletras 
+{
+    animation:surgletras 1s linear;
+}
+@keyframes surgletras {
+    from{opacity: 0; 
+        background-image: url(../imgs/imgs_cadastro/Deid.gif);
+        background-size:contain;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    to {
+        opacity: 10;
+        background-image: url(../imgs/imgs_cadastro/fundo\ letra.jpg);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
 .surgindo{
-    animation: surgindo 6s linear;font-size: 1.6em;
+    animation: surgindo 6s linear;
+    font-size: 10vw;
 }
 
 @keyframes surgindo {
@@ -87,17 +98,23 @@ to {
     -webkit-text-fill-color: transparent;
 }
 }
+::placeholder{
+    color: #c2b7151a;
+}
 .input-{
-    width: 75%;
-    height: 8%;
+    color: #c2b7153a; 
+    width: 80%;
+    height: 9%;
     text-align: center;
-    margin: 12px 55px;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: 15px;
     border-radius: 30px; 
     padding: 5px;    
     background-color: #232323ba;
-    border: none;
+    border: solid 0.1px rgba(0, 0, 0, 0.326);
     text-decoration: none;
-    box-shadow: 2px 2px 10px black;    
+    box-shadow: 2px 2px 7px rgba(213, 211, 71, 0.071);    
     transition: transform 1s;
     outline: none;
 }
@@ -109,11 +126,20 @@ button{
     width: 20%;
     padding: 6px;
     border-radius: 30px;
-    margin: 1% 5% 1% 35%;
+    margin: 3% 5% 1% 35%;
+    border: none;
+    color: #FFE181;
+    background: #00000054;
+    cursor: pointer;
+    transform: transform 1s;
+    box-shadow: 2px 2px 7px rgba(213, 211, 71, 0.142);
+}
+button:hover{
+    box-shadow: 2px 2px 11px rgba(213, 211, 71, 0.142);
+    transform: scale(1);
+    background: #0000002b;
 
 }
-
-
 /* fotter */
 
 footer {
