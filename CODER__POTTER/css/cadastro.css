@@ -82,6 +82,7 @@ h1 span{
 .surgindo{
     animation: surgindo 6s linear;
     font-size: 10vw;
+
 }
 
 @keyframes surgindo {
